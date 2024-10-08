@@ -269,3 +269,15 @@
 @media only screen and (max-height:450px) {
 
 } 
+
+.special-heading span:last-child {
+  color: red; /* 썬더볼트 GT 글자를 붉은색으로 설정 */
+}
+
+@media only screen and (max-width: 767px) {
+  .special-heading span {
+    display: block; /* 모바일에서 span을 각각 한 줄로 표시 */
+  }
+}
+
+
